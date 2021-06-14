@@ -7,8 +7,12 @@ import path from 'path'
 export default defineConfig({
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src')
+      '@': path.resolve(__dirname, './src'),
+      'vue-i18n': 'vue-i18n/dist/vue-i18n.cjs.js'
     }
   },
-  plugins: [vue(), vueJsx()]
+  plugins: [
+    vue(),
+    vueJsx()
+  ]
 })

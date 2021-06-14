@@ -1,6 +1,5 @@
 import { createApp } from 'vue';
-import Antd from 'ant-design-vue';
 import App from './App';
-import 'ant-design-vue/dist/antd.css';
+import i18n from './language/index'
 
-createApp(App).use(Antd).mount('#app');
+createApp(App).use(i18n).mount('#app');
