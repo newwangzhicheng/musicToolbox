@@ -1,0 +1,14 @@
+@import "@/style/variables.scss";
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  height: $header-height;
+  background: $theme-color;
+}
+.body {
+  flex: 1;
+}
