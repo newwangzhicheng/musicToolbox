@@ -1,0 +1,33 @@
+@import "@/style/variables.scss";
+
+.content {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr auto;
+  grid-template-areas:
+    "menu body"
+    "footer footer";
+
+  &__menu {
+    grid-area: menu;
+  }
+
+  &__body {
+    grid-area: body;
+  }
+
+  &__footer {
+    grid-area: footer;
+  }
+}
+
+.menu {
+  width: $menu-width;
+  background: $menu-bg;
+}
+
+.footer {
+  width: 100%;
+  height: $footer-height;
+}

@@ -1,14 +1,17 @@
-@import "@/style/variables.scss";
-.main {
+@import '@/style/variables.scss';
+
+.layout {
   height: 100%;
-  width: 100%;
   display: flex;
   flex-direction: column;
+
+  &__body {
+    flex: 1;
+  }
 }
+
 .header {
   height: $header-height;
+  width: 100%;
   background: $theme-color;
-}
-.body {
-  flex: 1;
 }
