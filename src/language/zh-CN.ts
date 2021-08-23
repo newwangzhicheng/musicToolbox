@@ -1,3 +1,5 @@
 export default {
-  helloWorld: '你好 世界',
+  common: {
+    notLoggedIn: '未登录',
+  },
 };
