@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import { Me } from '@icon-park/vue-next';
+import { Me, RightOne } from '@icon-park/vue-next';
 import { useStore } from '../plugins/store';
 
 export default defineComponent({
@@ -16,7 +16,7 @@ export default defineComponent({
       // 未登录状态
       avatar = (
         <a-avatar size="small">
-          <me theme="outline" size="16" fill="#333" strokeWidth="3"></me>
+          <Me theme="outline" size="16" fill="#333" strokeWidth={3} />
         </a-avatar>
       );
     }
@@ -25,6 +25,7 @@ export default defineComponent({
       <div>
         {avatar}
         <span>{username}</span>
+        <RightOne theme="filled" size="16" fill="#333" strokeWidth={3} />
       </div>
     );
   },

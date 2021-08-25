@@ -14,7 +14,7 @@ export const store: Store<State> = createStore<State>({
     // 登录状态
     loginState: false,
     // 用户名称
-    username: i18n.t('common.notLoggedIn'),
+    username: i18n.global.t('common.notLoggedIn'),
   },
 });
 
