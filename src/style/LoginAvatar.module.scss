@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  & > * {
+    margin: 10px 0px 10px 10px !important;
+  }
+}
+
+.rightone {
+  display: flex;
+  align-items: center;
+}

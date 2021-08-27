@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue';
-import styles from '@/layout/style/content.module.scss';
+import styles from '@/style/content.module.scss';
 import MenuMain from '../components/MenuMain';
 
 export default defineComponent({
